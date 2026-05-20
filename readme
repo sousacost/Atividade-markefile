@@ -1,0 +1,14 @@
+tem.hpp / item.cpp: Classe base Item contendo os atributos titulo e 
+ano, além do método virtual exibirInfo().
+
+livro.hpp / livro.cpp: Classe Livro que herda de Item, adicionando o
+ atributo autor e sobrescrevendo o método exibirInfo().
+
+usuario.hpp / usuario.cpp: Classe Usuario que gerencia uma coleção 
+de ponteiros de Item através de um std::vector.
+
+main.cpp: Ponto de entrada do programa que demonstra a instanciação
+ dos objetos, herança, polimorfismo dinâmico e liberação de memória.
+
+Makefile: Script de automação que gerencia as dependências
+ de compilação utilizando as flags -Wall e -std=c++17.
